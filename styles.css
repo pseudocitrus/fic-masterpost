@@ -1,0 +1,67 @@
+body {
+  background-color:#f6f6f6;
+  color:#222;
+  font-family: "Georgia", serif;
+}
+h1, 
+h2 {
+  margin-top:2em;
+  font-family: "Merriweather", serif;
+}
+a {
+  color: #c27a25;
+}
+a:link {
+  text-decoration:none;
+}
+a:hover {
+  text-decoration:underline;
+}
+.main {
+  padding-top:3em;
+  max-width:700px;
+  margin: 0px auto;
+  width:100%;
+}
+li {
+  line-height:1.6em;
+}
+
+.fic {
+  display:block;
+  background-color:white;
+  box-shadow: 1px 1px 1px #c7c7c7;
+  border-radius:2px; 
+  padding: 10px;
+  padding-left:20px;
+  box-sizing:border-box;
+  position:relative;
+}
+  a.fic {
+    color:#222;
+  }
+.notes {
+  position:absolute;
+  top:10px;
+  right:10px;
+}
+.series h2 {
+  background-color: #FFA500;
+  padding: 8px;
+  color: #F6F6F6;
+}
+.notes div {
+  display:inline-block;
+  display:none;
+  margin-right:10px;
+  text-transform:lowercase;
+  font-style:italic;
+  color: #656565;
+  font-size:80%;
+}
+  a.fic.nsfw .nsfw {
+    display:block;
+  }
+  a.fic.rough .rough {
+    display:block;
+  }
