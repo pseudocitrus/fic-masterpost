@@ -27,6 +27,16 @@ a:hover {
 li {
   line-height:1.6em;
 }
+  li .nsfw,
+  li .rough {
+    display:none;
+  }
+  li.nsfw .nsfw {
+    display:inline-block;
+  }
+  li.rough .rough {
+    display:inline-block;
+  }
 
 .fic {
   display:inline-block;
@@ -94,4 +104,12 @@ li {
   margin: 0px;
   color: #656565;
   line-height: 20px;
+}
+ul.fanfics li {
+  list-style-type: none;
+  margin-bottom: 0.5em;
+  border-left: 4px solid #CECECE;
+  padding-left: 10px;
+  margin-left: 0;
+  color: #858585;
 }
