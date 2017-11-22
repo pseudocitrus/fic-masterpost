@@ -3,6 +3,8 @@ body {
   color:#222;
   font-family: "Georgia", serif;
   margin-bottom:500px;
+  box-sizing:border-box;
+  padding-left:10px;
 }
 h1, 
 h2 {
@@ -75,11 +77,6 @@ li {
   color:#616161;
 }
 .notes {
-}
-.series h2 {
-  background-color: #FFA500;
-  padding: 8px;
-  color: #F6F6F6;
 }
 .notes div {
   display:inline-block;
